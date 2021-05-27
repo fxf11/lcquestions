@@ -1,4 +1,4 @@
-package com.fxf.array;
+package com.fxf.P101_200;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,12 +37,10 @@ public class P118 {
                     }else{
                         //不是的话就获取上一行的数据 左上方和右上方的值加起来添加进去
                         list.add(list1.get(j-1) + list1.get(j));
-
                     }
 
                 }
             }
-
             ans.add(list);
         }
         return ans;

@@ -1,4 +1,4 @@
-package com.fxf.array;
+package com.fxf.P1_P100;
 
 import java.util.ArrayList;
 import java.util.Arrays;
